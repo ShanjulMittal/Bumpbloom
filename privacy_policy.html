@@ -1,3 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BumpBloom — Privacy Policy, Health Connect &amp; Medical Disclaimer</title>
+  <style>
+    :root {
+      --seafoam: #20B894;
+      --seafoam-dark: #128C6E;
+      --seafoam-bg: #F2FBF7;
+      --ink: #153B32;
+      --card: #FFFFFF;
+      --border: #B9E6D6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #DCF9EE 0%, var(--seafoam-bg) 260px);
+      color: var(--ink);
+      line-height: 1.65;
+      padding: 32px 16px 64px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 2px solid var(--border);
+      border-bottom: 6px solid var(--seafoam);
+      border-radius: 28px;
+      padding: 36px 32px;
+      box-shadow: 0 12px 32px rgba(21, 59, 50, 0.08);
+    }
+    .badge {
+      display: inline-block;
+      background: #E4FCF4;
+      color: var(--seafoam-dark);
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1.5px solid var(--border);
+      margin-bottom: 12px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      color: var(--ink);
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.25rem;
+      color: var(--seafoam-dark);
+      border-bottom: 1.5px solid #E6F6EF;
+      padding-bottom: 6px;
+    }
+    ul { padding-left: 20px; }
+    .callout {
+      background: #FFFDF2;
+      border: 2px solid #F6CF57;
+      border-radius: 18px;
+      padding: 16px 20px;
+      margin-top: 20px;
+    }
+    footer {
+      margin-top: 36px;
+      font-size: 0.9rem;
+      color: #486B62;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <span class="badge">Package ID: com.bumpbloom.maternalcare</span>
+    <h1>BumpBloom — Privacy Policy &amp; Health Data Disclosure</h1>
+    <p><strong>Effective Date:</strong> October 27, 2026 &nbsp;|&nbsp; <strong>Application:</strong> BumpBloom — Happy Pregnancy Care</p>
+
+    <p>
+      BumpBloom is designed from the ground up with <strong>local-first maternal privacy</strong>. Your pregnancy dates,
+      supplement schedules, meal logs, hydration logs, fetal movement counts, vital signs, and doctor appointment reminders
+      belong exclusively to you.
+    </p>
+
+    <h2>1. On-Device AES-256 Database Encryption (Zero Ad Tracking)</h2>
+    <ul>
+      <li>All personal and maternal wellness records are stored locally on your Android device inside a <strong>SQLCipher 256-bit AES encrypted database</strong> protected by keys generated inside the hardware-backed <strong>Android Keystore</strong>.</li>
+      <li>BumpBloom contains <strong>zero third-party advertising SDKs</strong>, <strong>zero data brokers</strong>, and <strong>never sells, rents, or monetizes</strong> your personal or reproductive health data.</li>
+      <li>Optional <strong>Biometric / PIN App Lock</strong> and <strong>Private Lock-Screen Notification Masking</strong> allow you to conceal sensitive pregnancy details on shared screens.</li>
+    </ul>
+
+    <h2>2. Optional Google Account &amp; Google Drive Continuity</h2>
+    <ul>
+      <li>If you choose to link your Google Account or pin a Google Drive vault file (<code>.beatusvault</code>), BumpBloom encrypts your snapshot locally using <strong>AES-256-GCM authenticated encryption</strong> before writing it to Android Auto-Backup or the specific Google Drive file you selected via the system document picker.</li>
+      <li>BumpBloom does not access any other files in your Google Drive and never transmits your data to developer-operated servers.</li>
+    </ul>
+
+    <h2>3. Android Health Connect Data Policy &amp; Limited Use Compliance</h2>
+    <p>
       Only when explicitly enabled by you in <em>My Nest &rarr; Android Health Connect Sync</em>, BumpBloom requests granular
       access to the following Android Health Connect data types strictly to keep your maternal wellness log and 1-page OB-GYN visit summary synchronized:
     </p>
@@ -12,27 +112,32 @@
       The use of information received from Health Connect adheres strictly to the <strong>Health Connect Permissions Policy</strong>,
       including the <strong>Limited Use</strong> requirements. Health Connect data is never used for advertising, creditworthiness, or shared with third parties.
     </p>
+
     <h2>4. Alarms, Notifications &amp; User Control</h2>
     <ul>
       <li>BumpBloom uses Android exact alarms (<code>SCHEDULE_EXACT_ALARM</code>) and notifications (<code>POST_NOTIFICATIONS</code>) solely to deliver time-critical prenatal supplement reminders (including 2-hour Iron/Calcium spacing), meal/hydration nudges, and scheduled OB-GYN or ultrasound scan alerts configured by you.</li>
       <li>Activating <strong>Compassionate Quiet Sanctuary Mode</strong> immediately cancels all reminders and animations in one tap.</li>
     </ul>
+
     <h2>5. Instant Data Deletion &amp; Retention</h2>
     <ul>
       <li>Because all records reside on your device (and optionally in your own Google Drive file), you retain 100% control over retention.</li>
       <li>You can permanently delete all local data at any time inside the app via <strong>My Nest &rarr; Erase All Local Phone Data</strong>, or by uninstalling BumpBloom. If you saved a <code>.beatusvault</code> backup in your Google Drive, you may delete that file directly from your Google Drive at any time.</li>
     </ul>
+
     <div class="callout">
       <strong>Medical Wellness Disclaimer:</strong> BumpBloom is an informational maternal wellness, nutrition, and reminder companion.
       It is <strong>not a medical device</strong> and does not provide medical diagnosis, clinical treatment, or emergency obstetric advice.
       Always consult your obstetrician-gynecologist (OB-GYN), midwife, or qualified healthcare professional before making any medical,
       medication, or dietary decisions, or if you experience any concerning symptoms.
     </div>
+
     <h2>6. Contact</h2>
     <p>
       For privacy inquiries or support regarding BumpBloom, contact the developer support email listed on the official
       BumpBloom Google Play Store page.
     </p>
+
     <footer>
       &copy; 2026 BumpBloom — Happy Pregnancy Care. Built with encrypted local-first maternal privacy.
     </footer>
